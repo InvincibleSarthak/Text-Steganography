@@ -5,7 +5,7 @@ The code is using text steganography to hide the message in a text file which is
 The message to be hidden is converted to binary format on the basis of their ASCII values
 
  `res = ''.join(format(i, 'b') for i in bytearray(text, encoding ='utf-8'))`
-  `print("The string after binary conversion : " + (res))`
+ `print("The string after binary conversion : " + (res))`
 
 ## Opening Text File and creating a Empty Steg File
 
